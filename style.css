@@ -54,6 +54,9 @@ a:hover {
 #icon   {
     margin-right: 1rem;
 }
+#small-icon {
+    display: none;
+}
 #apple-icon {
     width: 269px;
     height: 65px;
@@ -320,7 +323,14 @@ i   {
     font-size: 10px;
     line-height: 20px;
 }
-
+#icon   {
+    
+    display: none;
+}
+#small-icon  {
+ display: inline;
+ margin-right: 0.4rem;
+}
 #smaller-screen {
     display: block;
 }
@@ -451,6 +461,14 @@ footer  {
 }
 #large-screen  {
     display: none;
+}
+#icon   {
+    
+    display: none;
+}
+#small-icon  {
+ display: inline;
+ margin-right: 0.4rem;
 }
 
 #download-img   {
