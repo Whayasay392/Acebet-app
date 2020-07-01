@@ -51,7 +51,7 @@ a:hover {
     font-family: 'Raleway';
 }
 i   {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-right: 2rem;
     
 }
@@ -109,7 +109,7 @@ i   {
     height: 50%;
 }
 #features-section   {
-    background: #C4C4C4;
+    background: rgba(37, 18, 151, 0.2);
     width: 100vw;
 }
 
