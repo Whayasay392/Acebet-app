@@ -50,10 +50,9 @@ a:hover {
     font-size: 1.2rem;
     font-family: 'Raleway';
 }
-i   {
-    font-size: 2.5rem;
-    margin-right: 2rem;
-    
+
+#icon   {
+    margin-right: 1rem;
 }
 #apple-icon {
     width: 269px;
