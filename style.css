@@ -144,6 +144,9 @@ a:hover {
         line-height: 27px;
         font-family: 'Raleway';
     }
+    #large-features-icon    {
+        display: block;
+    }
     #download-heading   {
         font-size: 40px;
         font-weight: 700;
@@ -153,7 +156,7 @@ a:hover {
     }
 #download-sub   {
     font-size: 30px;
-    line-height: 35px; 
+    line-height: 45px; 
     font-weight: 700;
     margin-top: 2rem;
     font-family: 'Raleway';
@@ -405,16 +408,20 @@ a {
 }
 #download-heading   {
     font-size: 25px;
-    line-height: 10px;
+    line-height: 1px;
+    
 }
 #download-img   {
     display: none;
 }
 #download-sub   {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0.5rem;
+    line-height: 20px;
 }
-
+#break  {
+    display: none;
+}
 #download-paragraph    {
     font-size: 15px;
     margin-top: 0.2rem;
