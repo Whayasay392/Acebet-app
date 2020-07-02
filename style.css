@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 body    {
     font-family: 'Raleway';
 }
@@ -207,6 +211,7 @@ a:hover {
 #testimonies-section    {
     background: rgba(37, 18, 151, 0.2); 
     height: 45rem; 
+    max-height: 45rem;
     width: 100vw;
     
 }
@@ -456,6 +461,12 @@ a {
     width: 100%;
     margin: 0;
 }
+.card   {
+    height: 16rem!important;
+}
+/* .carousel-item {
+    height: 16rem!important;
+} */
 #testimonies-heading    {
     font-size: 25px;
 }
@@ -476,7 +487,7 @@ a {
 #card   {
     margin-bottom: 1rem;
     width: 70%; 
-    height: 70%;
+    height: 20rem;
 }
 #card-img   {
     height: 4rem;
