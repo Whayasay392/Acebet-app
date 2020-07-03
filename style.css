@@ -22,12 +22,6 @@ a  {
     font-size: 25px;
     
 }
-
-a:hover {
-    background: #251297;
-    transition: 5s;
-    border-radius: 50px;
-}
 #download-btn   {
     width: 269px;
     height: 65px;
@@ -107,8 +101,15 @@ a:hover {
  /* Smaller-screen */
 
  #large-screen  {
-     /* display: block; */
- }
+    height: 57rem;
+    line-height: 70px;
+}
+#left-side-installation {
+    height: 50rem;
+}
+#right-side-installation    {
+    height: 58rem;
+}
 #installation-sub   {
     font-size: 30px;
     font-weight: 600;
@@ -269,7 +270,10 @@ textarea    {
     color: white;
     font-weight: 700;
     border-radius: 2rem;
+    border: 1px solid #251297;
+    box-shadow: none;
     font-family: 'Raleway';
+
 }
 #location   {
     font-weight: 700;
@@ -300,6 +304,27 @@ footer  {
 
 /* Mobile */
 
+@media(max-width:350px){
+
+    #apple-icon {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #playstore-icon  {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        padding: 0;
+    }    
+
+    }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)  { 
     #apple-icon {
         width: 90px;
